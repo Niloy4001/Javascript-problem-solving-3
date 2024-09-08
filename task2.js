@@ -15,15 +15,15 @@ function findSmallestName(words) {
 
     let smallest = words[0];
 
-    for( const word of words){
+    for (const word of words) {
         if (word.length < smallest.length) {
-           
+
             smallest = word;
-            
+
         }
     }
     return smallest;
-    
+
 }
 
 const smallestName = findSmallestName(heights2);
